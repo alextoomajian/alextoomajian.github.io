@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <title>assignment14</title>
+  </head>
+  <body>
+    <p>This assignment was a fun exercise in learning a bit about what SQL can do. For instance, I learned how to query more specific data by selecting more than one field at a time. There are so many ways to use SQL to organize thousands of records to find the exact ones you are looking for. I have used SQL in the past for organizing forum data that was submitted to a website in order to survey customers of a store. This is just one of many uses for SQL I was able to use.</p>
+    <ul>A.<br>
+        SELECT CustomerName,City FROM Customers;<br>
+        B.<br>
+        SELECT * FROM Customers
+        WHERE Country='USA';<br>
+        C.<br>
+        SELECT COUNT(column_name)
+        FROM table_name
+        WHERE condition;<br>
+        D.<br>
+        INSERT INTO Customers (CustomerName, ContactName, Address, City, PostalCode, Country)
+        VALUES ('Cardinal', 'Tom B. Erichsen', 'Skagen 21', 'Stavanger', '4006', 'Norway');<br>
+        E.<br>
+        UPDATE Customers
+        SET ContactName = 'Alfred Schmidt', City= 'Frankfurt'
+        WHERE CustomerID = 1;</ul>
+  </body>
+</html>
